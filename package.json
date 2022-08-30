@@ -6,8 +6,12 @@
   "version": "1.0.0",
   "main": "hello-node.js",
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "scripts": {
+        "start" : "node hello-node.js"
+  },
+  "engines": {
+    "node": "18.x" , 
+    "npm": "8.x"
   },
   "repository": {
     "type": "git",
